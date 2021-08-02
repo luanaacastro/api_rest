@@ -35,7 +35,7 @@ https://localhost/api/disciplinas
 ``` 
 Ou acessando remoto pelo endereço:
 ``` 
-https://web-api-bsi.herokuapp.com/swagger-ui.html
+https://web-api-bsi.herokuapp.com/swagger-ui.html#/disciplina45resource
 ``` 
 Um exemplo de sua saída está abaixo:
 ```json
@@ -67,7 +67,7 @@ https://localhost/api/disciplina/{chave}
 ``` 
 Ou acessando remoto pelo endereço:
 ``` 
-https://web-api-bsi.herokuapp.com/swagger-ui.html
+https://web-api-bsi.herokuapp.com/swagger-ui.html#/disciplina45resource
 ``` 
 sendo chave alterada pelo `id` que deseja acessar. Por exemplo para acessar o `id` 1 utiliza-se:
 ``` 
@@ -93,7 +93,7 @@ https://localhost/api/disciplina
 ``` 
 Ou acessando remoto pelo endereço:
 ``` 
-https://web-api-bsi.herokuapp.com/swagger-ui.html
+https://web-api-bsi.herokuapp.com/swagger-ui.html#/disciplina45resource
 ``` 
 passando em seu corpo o JSON com os dados a inserir.
 Um exemplo de corpo de inserção pode ser visto a baixo:
@@ -111,11 +111,11 @@ Um exemplo de corpo de inserção pode ser visto a baixo:
 
 A requisição delete, é uma requisição do tipo DELETE realizada atravez do endereço local:
 ``` 
-https://localhost/api/produto
+https://localhost/api/disciplina
 ``` 
 Ou acessando remoto pelo endereço:
 ``` 
-https://web-api-bsi.herokuapp.com/swagger-ui.html
+https://web-api-bsi.herokuapp.com/swagger-ui.html#/disciplina45resource
 ``` 
 passando em seu corpo o JSON com o `id` da disciplina que deseja excluir.
 Um exemplo de corpo de exclusão da disciplina cujo o `id` é 3 pode ser visto a baixo:
@@ -133,7 +133,7 @@ https://localhost/api//disciplina
 ``` 
 Ou acessando remoto pelo endereço:
 ``` 
-https://web-api-bsi.herokuapp.com/swagger-ui.html
+https://web-api-bsi.herokuapp.com/swagger-ui.html#/disciplina45resource
 ``` 
 passando em seu corpo o JSON com os dados que deseja atualizar, e o `id` da disciplina.
 Um exemplo de corpo de update da disciplina cujo o `id` é 1 pode ser visto a baixo:
