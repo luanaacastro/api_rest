@@ -57,7 +57,7 @@ public class DisciplinaResource {
     }
 
     @ApiOperation(value="Deleta uma disciplina")
-    @DeleteMapping("/produto")
+    @DeleteMapping("/disciplina")
     public void deletaDisciplina(@RequestBody @Valid Disciplina disciplina) {
         disciplinaRepository.delete(disciplina);
     }
