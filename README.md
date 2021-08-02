@@ -40,7 +40,6 @@ https://web-api-bsi.herokuapp.com/
 Um exemplo de sua saída está abaixo:
 ```json
 [
-  "body": [
         {
             "id": "1",
             "descricao": "WEB",
@@ -57,8 +56,7 @@ Um exemplo de sua saída está abaixo:
             "periodo": "6º período",
             "curso": "BSI"
         }
-    ]
-]
+   ]
 ```
 
 ##### Requisição SINGLE
